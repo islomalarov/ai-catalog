@@ -1,0 +1,92 @@
+[
+  {
+      "name": "ChatGPT",
+      "category": "Chatbot",
+      "description": "OpenAI tomonidan ishlab chiqilgan keng qamrovli chatbot bo'lib, suhbatlashish, kod yozish va kontent yaratishda yordam beradi.",
+      "link": "https://openai.com/chatgpt"
+  },
+  {
+      "name": "Google Gemini",
+      "category": "Chatbot",
+      "description": "Google'ning rivojlangan chatbot platformasi bo'lib, izlash imkoniyatlarini oshirish uchun ishlab chiqilgan.",
+      "link": "https://ai.google"
+  },
+  {
+      "name": "Character.ai",
+      "category": "Chatbot",
+      "description": "Foydalanuvchilar o'zlari yoki boshqalar yaratgan virtual personajlar bilan muloqot qilishi mumkin bo'lgan ijodiy chatbot platformasi.",
+      "link": "https://beta.character.ai"
+  },
+  {
+      "name": "Midjourney",
+      "category": "Tasvir yaratish",
+      "description": "Matn asosida yuqori sifatli rasmlar yaratish imkonini beruvchi sun'iy intellekt vositasi, asosan san'at va dizaynda qo'llaniladi.",
+      "link": "https://www.midjourney.com"
+  },
+  {
+      "name": "DALL-E",
+      "category": "Tasvir yaratish",
+      "description": "OpenAI tomonidan ishlab chiqilgan vosita bo'lib, matndan raqamli tasvirlar yaratishda keng qo'llaniladi.",
+      "link": "https://openai.com/dall-e"
+  },
+  {
+      "name": "Runway",
+      "category": "Video yaratish",
+      "description": "Video yaratish va tahrirlash uchun AI vositasi bo'lib, murakkab videomontaj jarayonlarini osonlashtiradi.",
+      "link": "https://runwayml.com"
+  },
+  {
+      "name": "Synthesia",
+      "category": "Video yaratish",
+      "description": "Korporativ trening, marketing va ta'lim uchun realistik video avatarlar yaratishga mo'ljallangan sun'iy intellekt vositasi.",
+      "link": "https://www.synthesia.io"
+  },
+  {
+      "name": "Poe",
+      "category": "Chatbot",
+      "description": "Quora tomonidan ishlab chiqilgan AI asosida savol-javob qilish imkonini beruvchi chatbot vositasi.",
+      "link": "https://poe.com"
+  },
+  {
+      "name": "DeepL",
+      "category": "Tarjima",
+      "description": "Nozik va aniq tarjimalar beruvchi sun'iy intellekt asosidagi xizmat, tilning o'ziga xos xususiyatlarini hisobga oladi.",
+      "link": "https://www.deepl.com"
+  },
+  {
+      "name": "Leonardo",
+      "category": "Tasvir yaratish",
+      "description": "Professional va ijodiy tasvirlar yaratish uchun keng imkoniyatlar taqdim etuvchi sun'iy intellekt platformasi.",
+      "link": "https://leonardo.ai"
+  },
+  {
+      "name": "Notion AI",
+      "category": "Ish samaradorligi",
+      "description": "Kontent yaratish, eslatmalar yozish va vazifalarni boshqarishda yordam beruvchi Notion'ning AI qo'shimchasi.",
+      "link": "https://www.notion.so/product/ai"
+  },
+  {
+      "name": "Copy.ai",
+      "category": "Yozish yordamchisi",
+      "description": "Marketologlar va yozuvchilar uchun turli formatdagi matnlarni, xatlar va blog postlarini tez yozishda yordam beradi.",
+      "link": "https://www.copy.ai"
+  },
+  {
+      "name": "Jasper AI",
+      "category": "Yozish yordamchisi",
+      "description": "Marketing va kontent yaratish uchun ishlatiladigan, foydalanuvchilar uchun qiziqarli va jalb qiluvchi matnlar yaratadi.",
+      "link": "https://www.jasper.ai"
+  },
+  {
+      "name": "Descript",
+      "category": "Audio/Video tahrirlash",
+      "description": "Audio va video tahrirlash uchun AI vositasi, ovoz sintezasi va transkripsiya qilish imkoniyatlari mavjud.",
+      "link": "https://www.descript.com"
+  },
+  {
+      "name": "QuillBot",
+      "category": "Yozish yordamchisi",
+      "description": "Matnni qayta yozish va mazmunini yaxshilash uchun foydalaniladigan AI yordamchisi.",
+      "link": "https://www.quillbot.com"
+  }
+]
