@@ -12,7 +12,7 @@ const TheSearch: FunctionComponent<TheSearchProps> = ({ searchQuery, setSearchQu
       <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
       <input
         type="search"
-        placeholder="Search AI models..."
+        placeholder="Kalit so'zni kiriting..."
         className="w-full pl-10 py-2 rounded-xl border bg-white text-gray-800 border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600 dark:placeholder-gray-400"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}

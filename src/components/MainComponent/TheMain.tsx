@@ -16,7 +16,7 @@ interface TheMainProps {
 const TheMain: FunctionComponent<TheMainProps> = ({ catalog }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
-
+  console.log(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
   const filteredAIs = catalog.filter(
     (ai) =>
       (selectedCategory === 'All' || ai.category === selectedCategory) &&

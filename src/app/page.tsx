@@ -12,7 +12,6 @@ export default async function Home() {
   const { data, error } = await supabase.from('catalog').select('*');
 
   const catalog = data as CatalogItem[] | null;
-  console.log(catalog);
 
   if (error) {
     throw new Error(`Error fetching catalog data: ${error.message}`);

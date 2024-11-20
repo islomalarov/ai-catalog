@@ -19,10 +19,10 @@ const TheCards: FunctionComponent<TheCardsProps> = ({ filteredAIs }) => {
           {filteredAIs.map((ai, index) => (
             <div
               key={index}
-              className=" p-5 rounded-xl flex flex-col gap-10 text-black dark:text-white transition-colors duration-200 border border-gray-400 dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-700">
+              className=" p-5 rounded-xl flex flex-col gap-5 text-black dark:text-white transition-colors duration-200 border border-gray-400 dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-700">
               <div>
-                <h2 className="text-2xl font-bold">{ai.name}</h2>
-                <p className="text-slate-700 dark:text-slate-300 text-sm">{ai.category}</p>
+                <h2 className="text-2xl  font-bold">{ai.name}</h2>
+                <p className="text-slate-700   dark:text-slate-300 text-sm">{ai.category}</p>
               </div>
               <div className="">
                 <p>{ai.description}</p>

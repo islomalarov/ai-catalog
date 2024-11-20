@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 import TheHeader from '@/components/HeaderComponent/TheHeader';
 import TheFooter from '@/components/FooterComponent/TheFooter';
+import { Analytics } from '@vercel/analytics/react';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -29,9 +30,12 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-primary text-primary-foreground dark:bg-gray-800 dark:text-gray-100`}>
-        <div className="container">
+        <div className="container flex flex-col min-h-screen">
           <TheHeader />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">
+            {children}
+            <Analytics />
+          </main>
           <TheFooter />
         </div>
       </body>
